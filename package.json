@@ -1,0 +1,26 @@
+{
+  "name": "gulp-crash-sound",
+  "description": "Play a WAV or MP3 when gulp crashes",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Barton"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacbarton/gulp-crash-sound"
+  },
+  "dependencies": {
+    "wav": "0.1.2",
+    "lame": "1.1.0",
+    "gulp-util": "2.2.19"
+  },
+  "keywords": [
+  	"gulp"
+  	, "crash"
+  	, "error"
+  	, "exit"
+  	, "sound"
+  	, "play"
+  	, "gulp-plumber"
+  ]
+}
