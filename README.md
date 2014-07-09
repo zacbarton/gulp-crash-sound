@@ -57,7 +57,7 @@ var gCrashSound = require('gulp-crash-sound');
 Configuration
 --------
 
-The default sound is a 'gulp' but you can use any WAV or MP3 (drm free).
+The default sound is a '[gulp][2]' but you can use any WAV or MP3 (drm free).
 
 ```javascript
 var gCrashSound = require('gulp-crash-sound');
@@ -83,3 +83,4 @@ Known Issues
 
 
   [1]: https://www.npmjs.org/package/gulp-plumber
+  [2]: https://raw.githubusercontent.com/zacbarton/gulp-crash-sound/master/sounds/gulp.wav
