@@ -26,8 +26,9 @@ The following examples show you 3 ways to use gulp-crash-sound.
 var gCrashSound = require('gulp-crash-sound');
 
 gulp.task('build', function() {
-	gulp.src('/some/paths');
+	gulp.src('/some/path');
 });
+// if gulp crashes (for any task) a sound will be played
 ```
 
 2\. Play a sound in your error handler.
@@ -50,6 +51,7 @@ var gCrashSound = require('gulp-crash-sound');
 // somewhere in gupfile.js
 .pipe(plumber({
   errorHandler: gCrashSound.plumb(yourOnErrorFunction)
+  // if gulp crashes a sound is played before calling your error function
 }))
 ```
 
