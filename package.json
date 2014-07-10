@@ -1,6 +1,6 @@
 {
   "name": "gulp-crash-sound",
-  "description": "Play a WAV or MP3 when gulp crashes",
+  "description": "Play a WAV or MP3 when gulp crashes.",
   "version": "0.0.1",
   "author": {
     "name": "Zac Barton"
