@@ -50,8 +50,8 @@ var gCrashSound = require('gulp-crash-sound');
 
 // somewhere in gupfile.js
 .pipe(plumber({
-  errorHandler: gCrashSound.plumb(yourOnErrorFunction)
-  // if gulp crashes a sound is played before calling your error function
+	errorHandler: gCrashSound.plumb(yourOnErrorFunction)
+	// if gulp crashes a sound is played before calling your error function
 }))
 ```
 
@@ -65,8 +65,8 @@ The default sound is a '[gulp][2]' but you can use any WAV or MP3 (drm free).
 var gCrashSound = require('gulp-crash-sound');
 
 gCrashSound.config({
-	file: '/path/to/your/wav/or/mp3'
-	, duration: 3 // 3 seconds. can be null (or not set) to play full length which is the default
+	file: '/path/to/your/wav/or/mp3',
+	duration: 3 // 3 seconds. can be null (or not set) to play full length which is the default
 });
 ```
 
